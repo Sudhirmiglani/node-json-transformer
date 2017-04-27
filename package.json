@@ -1,13 +1,17 @@
 {
-  "name": "json-transformer",
+  "name": "node-json-transformer",
   "version": "1.0.0",
-  "description": "Json Transformation Utility",
+  "description": "Json Transformater Utility",
   "main": "index.js",
   "scripts": {
     "start": "node ./bin/www",
     "test": "mocha --reporter spec"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sudhirmiglani/json-transformer.git"
+  },
+  "author": "Sudhir Miglani",
   "license": "ISC",
   "devDependencies": {
     "babel-cli": "^6.18.0",
