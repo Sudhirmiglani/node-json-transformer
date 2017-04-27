@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node ./bin/www",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --reporter spec"
   },
   "author": "",
   "license": "ISC",
@@ -13,7 +13,7 @@
     "babel-cli": "^6.18.0",
     "chai": "^3.5.0",
     "chai-http": "^2.0.1",
-    "mocha": "^2.4.5",
+    "mocha": "^2.5.3",
     "nock": "9.0.2"
   },
   "dependencies": {

@@ -2,9 +2,9 @@
  * Created by sudhir.m on 30/11/16.
  */
 'use strict';
-const {convertByKey} = require('./helper');
-const {getObjectOrArrayFromStringKey, isNonEmptyArray} = require('./utilities');
-const {IDENTIFIERS} = require('./constants');
+const {convertByKey} = require('./utils/helper');
+const {getObjectOrArrayFromStringKey, isNonEmptyArray} = require('./utils/utilities');
+const {IDENTIFIERS} = require('./utils/constants');
 
 let rootData = {};
 let configuration = {};

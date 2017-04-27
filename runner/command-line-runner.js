@@ -1,7 +1,7 @@
 /**
  * Created by sudhir.m on 22/03/17.
  */
-const transformHelper = require("../src/transformer");
+const transformHelper = require("../index");
 
 
 let data = {
