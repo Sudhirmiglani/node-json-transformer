@@ -6,11 +6,11 @@ A Node.js package that converts json from one format to another.
 
 First, install the package using npm:
 
-    npm install node-json-transformer --save
+    npm install json-transformer-node --save
 
 Then, require the package and use it like this:
 
-    var nodeJsonTransformer = require('node-json-transformer');
+    var nodeJsonTransformer = require('json-transformer-node');
 
     var data = {
         x : "xx",
