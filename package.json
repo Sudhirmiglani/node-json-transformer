@@ -1,7 +1,7 @@
 {
-  "name": "nodejs-json-transformer",
-  "version": "1.0.1",
-  "description": "Json Transformater Utility",
+  "name": "json-transformer-node",
+  "version": "1.0.2",
+  "description": "Json Transformer Utility",
   "main": "index.js",
   "scripts": {
     "start": "node ./bin/www",

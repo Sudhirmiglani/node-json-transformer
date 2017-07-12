@@ -19,8 +19,10 @@ Then, require the package and use it like this:
     
     var transformation = {
         mapping : {
-            a : "x",
-            b : "y"
+            item : {
+                a : "x",
+                b : "y"
+            }
         }
     }
     
