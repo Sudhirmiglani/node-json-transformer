@@ -1,8 +1,18 @@
 {
   "name": "json-transformer-node",
-  "version": "1.0.5",
-  "description": "Json Transformer Utility",
+  "version": "1.0.4",
+  "description": "Json Transformer Utility. Many times you want to interact with 3rd party services or clients, this utility acts as an adaptor and help you mantain code clean by maintaining only the json mappings",
   "main": "index.js",
+  "keywords": [
+    "json",
+    "node",
+    "transformer",
+    "adaptor",
+    "converter",
+    "array",
+    "object",
+    "mapping"
+  ],
   "scripts": {
     "start": "node ./bin/www",
     "test": "mocha --reporter spec"
@@ -23,6 +33,7 @@
   "dependencies": {
     "babel-cli": "^6.24.1",
     "babel-preset-node6": "^11.0.0",
-    "babel-register": "^6.18.0"
+    "babel-register": "^6.18.0",
+    "semver": "^5.3.0"
   }
 }
