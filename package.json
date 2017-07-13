@@ -1,6 +1,6 @@
 {
   "name": "json-transformer-node",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Json Transformer Utility",
   "main": "index.js",
   "scripts": {
