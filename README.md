@@ -1,3 +1,8 @@
+
+### Status
+[![Build Status](https://travis-ci.com/Sudhirmiglani/node-json-transformer.svg?branch=master)](https://travis-ci.com/Sudhirmiglani/node-json-transformer)
+[![Known Vulnerabilities](https://snyk.io/test/github/Sudhirmiglani/node-json-transformer/badge.svg?targetFile=package.json)](https://snyk.io/test/github/Sudhirmiglani/node-json-transformer?targetFile=package.json)
+
 # json-transformer
 
 A Node.js package that converts json from one format to another.
