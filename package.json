@@ -1,6 +1,6 @@
 {
   "name": "json-transformer-node",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "Json Transformer Utility. Many times you want to interact with 3rd party services or clients, this utility acts as an adaptor and help you mantain code clean by maintaining only the json mappings",
   "main": "index.js",
   "keywords": [
