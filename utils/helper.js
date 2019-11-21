@@ -219,8 +219,6 @@ const convertByKey = (key, obj, rootData, configuration) => {
 
 const helper = {
     identifierMap,
-    isSpecialType,
-    convertSpecialType,
     convertByKey
 };
 

@@ -164,7 +164,7 @@ Then, require the package and use it like this:
             Output : 
             {
                 a : {
-                    z : "45"
+                    c : "45"
                 },
                 b : "yy"
             }
@@ -202,10 +202,12 @@ Then, require the package and use it like this:
             console.log(output);
             
             Output : 
-            {
-                a : 123,
-                b : "456",
-                c : "ABC
+            { 
+              arrayItems: [{ car: { 
+                                    c1: "123", 
+                                    c2: "abc" 
+                                    }
+                          }]
             }
             
 6. Type Conversion
@@ -233,7 +235,7 @@ Then, require the package and use it like this:
             {
                 a : 123,
                 b : "456",
-                c : "ABC
+                c : "ABC"
             }
             
 7. Operations - depends etc.
@@ -262,8 +264,7 @@ Then, require the package and use it like this:
             
             Output : 
             {
-                a : "stop",
-                b : "Hey Jude !!!"
+                a : "stop"
             }
             
 ## License
